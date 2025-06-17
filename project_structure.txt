@@ -1,0 +1,32 @@
+pump-fun-trading-bot/
+├── src/
+│   ├── __init__.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   └── api_keys.py
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── pumpportal_client.py
+│   │   ├── bitquery_client.py
+│   │   └── data_processor.py
+│   ├── trading/
+│   │   ├── __init__.py
+│   │   ├── strategy_engine.py
+│   │   ├── execution_engine.py
+│   │   └── risk_manager.py
+│   ├── wallets/
+│   │   ├── __init__.py
+│   │   ├── wallet_manager.py
+│   │   └── reputation_manager.py
+│   ├── monitoring/
+│   │   ├── __init__.py
+│   │   ├── logger.py
+│   │   └── metrics.py
+│   └── main.py
+├── tests/
+├── requirements.txt
+├── .env.example
+├── README.md
+└── docker-compose.yml
+
